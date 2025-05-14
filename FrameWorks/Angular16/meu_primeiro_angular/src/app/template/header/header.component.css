@@ -1,0 +1,16 @@
+nav{
+    width: 100;
+    background-color: rgba(7, 64, 110, 0.753);
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: white;
+    font-size: 2em;
+}

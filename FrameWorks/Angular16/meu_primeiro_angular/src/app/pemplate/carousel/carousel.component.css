@@ -1,0 +1,26 @@
+/* Carrossel */
+.carousel {
+  width: 900px;
+  height: 300px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.slides {
+  display: flex;
+  width: 3000px; /* 800px x 3 imagens */
+  animation: slide 9s infinite;
+}
+
+.slides img {
+  width: 800px;
+  height: 300px;
+  object-fit: cover;
+}
+
+@keyframes slide {
+  0% { transform: translateX(0); }
+  33% { transform: translateX(-800px); }
+  66% { transform: translateX(-1600px); }
+  100% { transform: translateX(0); }
+}
