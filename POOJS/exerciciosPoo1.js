@@ -13,6 +13,7 @@ class Produto {
             console.log("Estoque insuficiente.");
         }
     }
+    
 
     repor(quantidade) {
         this.estoque += quantidade;

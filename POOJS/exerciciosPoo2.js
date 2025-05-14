@@ -24,3 +24,4 @@ class Carro extends Veiculo {
 
 let carro1 = new Carro("Volkswagen", "Fusca", 2400, 2);
 carro1.exibirInfo();
+

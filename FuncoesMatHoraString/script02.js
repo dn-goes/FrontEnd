@@ -39,3 +39,4 @@ console.log(carcater);
 console.log(carcater.length);
 console.log(carcaterSemEspaço);
 console.log(carcaterSemEspaço.length);
+

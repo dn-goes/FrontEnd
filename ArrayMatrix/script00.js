@@ -61,4 +61,5 @@ numberArray.forEach (element => {
 //indexOf (retorna o indice do elemento)
 console.log (mixArray.indexOf ("Sessenta"));
 
+
 console.log (mixArray.indexOf (1000000));

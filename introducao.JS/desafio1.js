@@ -5,6 +5,7 @@ function verificarIdade(){
     
     // Idades 
     
+    
     if(idade < 17){
         console.log("Menor de idade");
     

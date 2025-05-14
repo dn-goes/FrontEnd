@@ -20,3 +20,4 @@ let diferenca = data2 - data1;
 
 console.log(diferenca/(1000*60*60*24));
 
+

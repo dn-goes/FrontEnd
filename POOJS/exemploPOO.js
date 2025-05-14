@@ -125,3 +125,4 @@ let funcionario1 = new Funcionario("Pedro", 27, "321.654.987-00", "Motorista", 3
 funcionario1.exibirInfo();
 funcionario1.setSalario = 3500;
 funcionario1.exibirInfo();
+

@@ -4,6 +4,7 @@ class Funcionario {
         this.salario = salario;
         this.cargo = cargo;
     }
+    
 
     aumentarSalario(percentual) {
         this.salario += this.salario * (percentual / 100);

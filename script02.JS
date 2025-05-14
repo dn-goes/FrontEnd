@@ -9,6 +9,7 @@ console.log(texto.length);//18
 console.log(texto.toUpperCase()); //MAIUSCULAS
 console.log(texto.toLowerCase()); //minussculas
 
+
 //partes do texto
 //substring (inicio, fim)
 console.log(texto.substring(0,4)); //Aula
@@ -22,6 +23,7 @@ console.log(texto.replace("Java", "Type"))
 let texto1 = " JavaScript ";
 console.log(texto1); // "  JavaScript  "
 console.log(texto1.trim());
+
 
 //separar texto (split) -caracter comum
 let linguagens = "JavaScript, Python, Java, C#";

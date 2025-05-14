@@ -40,3 +40,4 @@ console.log(Math.round(Math.random()*10+30));
 console.loh(matchMedia.max(1,3,6,9,2,5)); //9
 console.loh(matchMedia.max(1,3,6,9,2,5)); //1
 console.log(Math(-10));  //10
+

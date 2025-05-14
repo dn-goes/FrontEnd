@@ -17,3 +17,4 @@ console.log(numFiltroDobro);
 //soma dos valores de um array
 let soma = numeros.reduce((x,y) => (x+y));
 console.log(soma);
+
