@@ -1,7 +1,19 @@
-<h1>Bem-Vindo ao Nosso Primeiro site com Angular</h1>
-
-<h2>HEllo, Word!!!</h2>
+<h1>Bem-Vindo ao Nosso Primeiro site com Angular com a familia Simpsons</h1>
 
 <app-carousel></app-carousel>
 
-<h3>Explore nosso Produtos e entre em Contato</h3>
+<h2>Bem-Vindo a Springfield!!!</h2>
+
+<div class="contanier">
+    <label for="Digite seu Nome!"></label>
+    <input type="text" name="userName" id="" [(ngModel)]="userName" placeholder="Nome do Usuario">
+    <hr>
+    <p *ngIf="userName"> Ola {{userName}},!!! É um prazer ter você aqui!!!</p>
+    <p *ngIf="!userName"> Por favor digite seu nome para começar</p>
+
+
+</div>
+
+
+
+<h3>Explore nossos Produtos e entre em Contato</h3>

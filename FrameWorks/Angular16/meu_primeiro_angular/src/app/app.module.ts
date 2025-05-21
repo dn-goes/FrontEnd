@@ -8,8 +8,9 @@ import { FooterComponent } from './template/footer/footer.component';
 import { HomeComponent } from './pages/home/home.component';
 import { ProductsComponent } from './pages/products/products.component';
 import { ContactComponent } from './pages/contact/contact.component';
-import { BannerComponent } from './template/banner/banner.component';
 import { CarouselComponent } from './pemplate/carousel/carousel.component';
+import { FormsModule } from '@angular/forms';
+import { FormsComponent } from './pages/forms/forms.component';
 
 @NgModule({
   declarations: [
@@ -19,12 +20,13 @@ import { CarouselComponent } from './pemplate/carousel/carousel.component';
     HomeComponent,
     ProductsComponent,
     ContactComponent,
-    BannerComponent,
-    CarouselComponent
+    CarouselComponent,
+    FormsComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
